@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+    <title>Планер</title>
+</head>
+<body>
+<div class="planner">
+    <div class="header">
+        <div class="logo">
+            <h1>План на тиждень</h1>
+        </div>
+        <div class="grid-item">
+            <label for="task1">Поле 1:</label>
+            <input type="text" id="task1">
+        </div>
+        <div class="grid-item">
+            <label for="task1">Поле 2:</label>
+            <input type="text" id="task2">
+        </div>
+        <div class="grid-item">
+            <label for="checkbox1">Чекбокс:</label>
+            <input type="checkbox" id="checkbox1"><br>
+            <label for="checkbox2">Чекбокс:</label>
+            <input type="checkbox" id="checkbox2">
+        </div>
+    </div>
+    <hr>
+    <div class="grid-container">
+        <div class="todo-container">
+            <h2>Зроби зараз</h2>
+            <h3>Перший список</h3>
+            <div class="grid-item2">
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox">
+            </div>
+            <h3>Другий список</h3>
+            <div class="grid-item2">
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox"><br>
+                <label>Чекбокс:</label>
+                <input type="checkbox">
+            </div>
+        </div>
+
+        <div class="week-table">
+            <table class="iksweb">
+                <tbody>
+                <tr>
+                    <td>Понеділок<input type="checkbox"></td>
+                    <td>Вівторок<input type="checkbox"></td>
+                    <td>Середа<input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Четвер<input type="checkbox"></td>
+                    <td rowspan="2">Пятниця<input type="checkbox"></td>
+                    <td>Субота<input type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Неділя<input type="checkbox"></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
